@@ -1,0 +1,206 @@
+/***********
+ CSS for Left Container 
+ ***********************/
+
+.LeftContainer {
+  width: 40%;
+  float: left;
+  height: auto;
+  position:fixed;
+  margin-left: -2%;
+}
+
+.flexmenu {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin-right: 20%;
+  margin-left: 9%;
+  transform: rotate(315deg);
+}
+
+
+/***************** LOGO *******************/
+.logo {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+  position: relative;
+  margin-left: 15%;
+}
+
+.logo img {
+  transform: rotate(45deg);
+  margin-left: 0%;
+  margin-top: 0%;
+  height: 65px;
+  width: 65px;
+}
+
+.logo .img-top{
+  display: none;
+  position: absolute;
+  top: auto;
+  left: auto;
+  z-index: 99;
+}
+
+.logo:hover .img-top{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/**************  TNA name tag css ***************/
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 240px;
+  width: 240px;
+  background: radial-gradient(circle, #9f0909, #271212);
+}
+.name h1 {
+  position: relative;
+  transform: rotate(45deg);
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'Audiowide', sans-serif;
+}
+
+/************ Sub menu grid fix **********/
+.Pages1 {
+  margin-top: -54.5%;
+  margin-left: -28.5%;
+  width: 50%;
+}
+
+.submenu1{
+  z-index: 102;
+  padding-left: 2px;
+}
+
+.submenu2{
+  margin-top: -55%;
+  margin-left: -54%;
+  
+}
+
+.gtk, .events, .members, .gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+}
+
+.gtk span,
+.events span,
+.members span,
+.gallery span,
+.contact span{
+  position: relative;
+  transform: rotate(45deg);
+  font-size: 18px;
+}
+
+/************ contactus fix **********/
+.pages2 {
+  display: flex;
+  flex-direction: row;
+  z-index:101;
+  margin-top: -26%;
+  margin-left: -27%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+}
+
+/* .events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 55%;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+} 
+
+.events span {
+  position: relative;
+  transform: rotate(-45deg);
+  font-size: 20px;
+}
+
+ .members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 55%;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+} 
+
+.members span {
+  position: relative;
+  transform: rotate(-45deg);
+  font-size: 20px;
+}
+
+.pages2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: -71%;
+  margin-top: -14%;
+  transform: rotate(90deg);
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 55%;
+  color: white;
+  background: radial-gradient(circle, #9f0909, #271212);
+} 
+
+.gallery span {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(-45deg);
+}
+
+.contact span {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(-45deg);
+}
+*/
+

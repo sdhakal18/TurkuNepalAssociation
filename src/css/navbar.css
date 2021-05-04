@@ -1,0 +1,140 @@
+.navOutside{
+  width: 100%;
+  clear:both;
+  height: 100%;
+  padding-top:20px;
+}
+
+
+.navInside{
+  position: relative;
+  float:left;
+  width:75%;
+  
+}
+
+.navInside ul {
+  list-style: none;
+
+  overflow: hidden;
+}
+
+.navInside ul li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+  .signInBtn{
+    font-size: 20px;
+  }
+  .modal_content{
+    background-color: rgb(236, 236, 236);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .registerBtn{
+    font-size: 20px;
+  }
+
+  .signInBtn, .registerBtn{
+    padding: 3px 5px;
+  }
+
+  
+  /**Hemburger menu*/
+  
+  
+  .nav{
+    width:25%;
+    float:right;
+  }
+  
+  .barButton {
+    float: right;
+    position: relative;
+    z-index: 20;
+    padding: 18px;
+  }
+  
+  .bar {
+    width: 30px;
+    margin: 3px;
+    height: 4px;
+    background-color: black;
+  }
+
+  .nav ul {
+    list-style-type: none;
+  }
+  
+  .nav ul li{
+    overflow: hidden;
+    padding-top: 60px;
+    font-size: 18px;
+    padding-right:15px;
+    padding-left:15px;
+    color: black;
+  }
+
+  .nav a:link {
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+
+  .navLink {
+    background-color: rgb(235, 46, 46);
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40%;
+    position: fixed;
+    right: 0px;
+    height: 0px;
+    font-size: xx-large;
+  }
+
+  .navoff{
+    display:none;
+  }
+
+
+
+
+  /* 
+   ul{
+
+    list-style-type:none;
+    
+  }
+   
+  ul li{
+    padding: 10px 30px;
+  }
+   
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: yellow;
+  }
+  
+  .navLink {
+    background-color: rgb(235, 46, 46);
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+    position: fixed;
+    right: 0px;
+    height: 0px;
+    font-size: xx-large;
+  }
+   */

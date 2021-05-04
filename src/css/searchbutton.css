@@ -1,0 +1,42 @@
+/** SEACRCH INPUT AND BUTTON CSS **/
+
+.searchButton input {
+  border: 1px solid #aaaaaa;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+}
+
+::placeholder {
+  color: -internal-light-dark(black, white);
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+
+.searchButton input:focus {
+  border: 1px solid #ec9d9d;
+}
+
+.search {
+  font-size:20px;
+  padding: 5px 10px;
+  color: #ec9d9d;
+}
+
+.searchButton button{
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchBtn {
+  font-size: 20px;
+  background: #6b0f0f;
+  padding: 6px 12px;
+}
+.searchBtn:hover {
+  background: #a5080e;
+}
+
+.searchBtn i {
+  color: white;
+}
